@@ -13,6 +13,7 @@ import 'package:webinar/common/common.dart';
 import 'package:webinar/common/data/app_data.dart';
 import 'package:webinar/common/utils/app_text.dart';
 import 'package:webinar/config/assets.dart';
+import 'package:webinar/config/colors.dart';
 import 'package:webinar/config/styles.dart';
 
 class SplashPage extends StatefulWidget {
@@ -74,17 +75,17 @@ class _SplashPageState extends State<SplashPage> with SingleTickerProviderStateM
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xff00BA63),
+      backgroundColor: green91(), 
       body: Container(
         width: getSize().width,
         height: getSize().height,
 
-        decoration: const BoxDecoration(
+        /*decoration: const BoxDecoration(
           image: DecorationImage(
             image: AssetImage(AppAssets.splashPng),
             fit: BoxFit.cover,
           )
-        ),
+        ),*/
 
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -111,8 +112,12 @@ class _SplashPageState extends State<SplashPage> with SingleTickerProviderStateM
                 ),
 
                 Center(
-                  child: SvgPicture.asset(AppAssets.logoLineSvg),
-                ),
+                                    child: SvgPicture.asset(
+                                        AppAssets.logo,/*drawer logo*/
+                                        width: 165,
+                                        height: 165,
+                                    ),/*logo in splash screen*/                
+                                    ),
               ],
             ),
 

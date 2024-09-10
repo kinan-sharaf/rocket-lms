@@ -481,7 +481,7 @@ class MainWidget{
             Stack(
               children: [
                 
-                Center(child: SvgPicture.asset(AppAssets.homeNavSvg, colorFilter:  ColorFilter.mode(green91(), BlendMode.srcIn),)),
+                Center(child: SvgPicture.asset(AppAssets.homeNavSvg, colorFilter:  ColorFilter.mode(Color.fromARGB(255, 130, 186, 56), BlendMode.srcIn),)),
                 
                 Positioned(
                   bottom: 4,

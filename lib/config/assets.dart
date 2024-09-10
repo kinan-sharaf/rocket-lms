@@ -16,7 +16,10 @@ class AppAssets {
 
 
 
-  static const String splashLogoSvg = '${_baseSvg}splash-logo.svg';
+
+  //static const String splashLogoSvg = '${_baseSvg}splash-logo.svg';
+  static const String logo = '${_baseSvg}logo.svg';
+   //static const String drawerlogo = '${_baseSvg}drawelogo.svg';
   static const String introbgSvg = '${_baseSvg}intro_bg.svg';
   static const String intro1Svg = '${_baseSvg}intro1.svg';
   static const String intro2Svg = '${_baseSvg}intro2.svg';

@@ -112,7 +112,7 @@ class _MainDrawerState extends State<MainDrawer> {
                                         shape: BoxShape.circle
                                       ),
                                       child: SvgPicture.asset(
-                                        AppAssets.splashLogoSvg,
+                                        AppAssets.logo,/*drawer logo*/
                                         width: 65,
                                         height: 65,
                                     ),
